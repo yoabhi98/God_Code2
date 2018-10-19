@@ -9,10 +9,11 @@ public static void main(String []args)
 int fact=5;            
 Scanner sc=new Scanner(System.in);
 
-int num = sc.nextInt();    
+int num = sc.nextInt();
+     int temp=num;
 while(fact>0)
 {
-if(num%5==0)
+if(num%temp==0)
 {
 System.out.print(num+" ");
 fact--;
